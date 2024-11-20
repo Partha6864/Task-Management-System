@@ -7,7 +7,7 @@ This is a simple **Task Management System** built with **Spring Boot**, **H2 Dat
 - Basic Authentication for accessing the API.
 - H2 Database (in-memory) for storing tasks.
 - Exception handling for missing resources.
-- User authentication with username: `user` and password: `task@123`.
+- User authentication.
 
 ---
 
@@ -25,3 +25,21 @@ This is a simple **Task Management System** built with **Spring Boot**, **H2 Dat
    ```bash
    git clone https://github.com/yourusername/task-management-system.git
    cd task-management-system
+
+2. **Run the application**:
+   ```bash
+   mvn spring-boot:run
+
+3. **Access the application**:
+   The application will be accessible at http://localhost:8080.By default,it uses Basic Authentication.
+
+4. **Test the API**:
+   Use Postman or any HTTP client to test the application.
+
+### **Testing the Application**
+1. Add the following authorization to each request:
+   Type: Basic Auth
+   Username: user
+   Password: user@123
+
+2. Use the above endpoints to create, retrieve, update, and delete tasks.
