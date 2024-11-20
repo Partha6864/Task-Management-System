@@ -38,8 +38,8 @@ This is a simple **Task Management System** built with **Spring Boot**, **H2 Dat
 
 ### **Testing the Application**
 1. Add the following authorization to each request:
-   Type: Basic Auth
-   Username: user
-   Password: user@123
+  - Type: Basic Auth
+  - Username: user
+  - Password: user@123
 
-2. Use the above endpoints to create, retrieve, update, and delete tasks.
+2. Use the above endpoints to create,retrieve,update and delete tasks.
